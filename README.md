@@ -62,7 +62,7 @@ fun fetchFileContent(context: Context, filename: String): String {
 On notera que si le fichier n'existe pas, on retourne "File not found". Si nous n'avions pas fait cela, l'application aurait planté.
 
 <p align="center">
-    <img height="500" alt="question-1-to-3.gif" src="docs/question-1-to-3.gif"/>
+    <img alt="question-1-to-3.gif" src="docs/question-1-to-3.gif"/>
 </p>
 
 
@@ -80,7 +80,7 @@ Lorsque l'on clique sur le bouton "OK", on utilise la fonction `saveFile` pour �
 Lorsque l'on clique sur le bouton "Cancel", on utilise la fonction `fetchFileContent` pour écraser le contenu de la variable mutable avec le contenu du fichier. Ainsi, le champ de texte est mis à jour.
 
 <p align="center">
-    <img height="500" alt="question-4.gif" src="docs/question-4.gif"/>
+    <img alt="question-4.gif" src="docs/question-4.gif"/>
 </p>
 
 
@@ -132,5 +132,5 @@ Pour supprimer un fichier, on utilise la fonction `File(context.filesDir, name).
 Après avoir supprimé le fichier, on met à jour la liste des fichiers.
 
 <p align="center">
-<img alt="question-5.gif" height="500" src="docs/question-5.gif"/>
+<img alt="question-5.gif" src="docs/question-5.gif"/>
 </p>
